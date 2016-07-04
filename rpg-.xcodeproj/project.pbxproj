@@ -12,6 +12,11 @@
 		EB4C2F8B1D2956F400188E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4C2F891D2956F400188E14 /* Main.storyboard */; };
 		EB4C2F8D1D2956F400188E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4C2F8C1D2956F400188E14 /* Assets.xcassets */; };
 		EB4C2F901D2956F400188E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4C2F8E1D2956F400188E14 /* LaunchScreen.storyboard */; };
+		EB4C2F981D29580F00188E14 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C2F971D29580F00188E14 /* Character.swift */; };
+		EB4C2F9A1D295AE700188E14 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C2F991D295AE700188E14 /* Player.swift */; };
+		EB4C2F9C1D295C5400188E14 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C2F9B1D295C5400188E14 /* Enemy.swift */; };
+		EB4C2F9E1D295DBF00188E14 /* Kimera.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C2F9D1D295DBF00188E14 /* Kimera.swift */; };
+		EB4C2FA01D295EEC00188E14 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4C2F9F1D295EEC00188E14 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		EB4C2F8C1D2956F400188E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4C2F8F1D2956F400188E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4C2F911D2956F400188E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4C2F971D29580F00188E14 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		EB4C2F991D295AE700188E14 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		EB4C2F9B1D295C5400188E14 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		EB4C2F9D1D295DBF00188E14 /* Kimera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimera.swift; sourceTree = "<group>"; };
+		EB4C2F9F1D295EEC00188E14 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				EB4C2F8C1D2956F400188E14 /* Assets.xcassets */,
 				EB4C2F8E1D2956F400188E14 /* LaunchScreen.storyboard */,
 				EB4C2F911D2956F400188E14 /* Info.plist */,
+				EB4C2F971D29580F00188E14 /* Character.swift */,
+				EB4C2F991D295AE700188E14 /* Player.swift */,
+				EB4C2F9B1D295C5400188E14 /* Enemy.swift */,
+				EB4C2F9D1D295DBF00188E14 /* Kimera.swift */,
+				EB4C2F9F1D295EEC00188E14 /* DevilWizard.swift */,
 			);
 			path = "rpg-";
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4C2F9A1D295AE700188E14 /* Player.swift in Sources */,
+				EB4C2F9C1D295C5400188E14 /* Enemy.swift in Sources */,
+				EB4C2FA01D295EEC00188E14 /* DevilWizard.swift in Sources */,
+				EB4C2F981D29580F00188E14 /* Character.swift in Sources */,
 				EB4C2F881D2956F400188E14 /* ViewController.swift in Sources */,
+				EB4C2F9E1D295DBF00188E14 /* Kimera.swift in Sources */,
 				EB4C2F861D2956F400188E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rpg-/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hientran.rpg-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "rpg-/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hientran.rpg-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +319,7 @@
 				EB4C2F961D2956F400188E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
